@@ -1,0 +1,15 @@
+=====================================================
+DISCIPLINA: Lógica de Programação
+ALUNO: Wender Felipe Silva Texeira
+ATIVIDADE: Lista 01 - Exercício 02
+DATA: 07/04/2026
+=====================================================
+A expressão !(A && ! B || C) será verdadeira quando:
+A = V (1)
+B = V (1)
+C = F (0)
+
+!(V && (!V) || F)
+!(V && F || F)
+!(F)
+V
