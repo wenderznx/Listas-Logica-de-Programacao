@@ -1,0 +1,9 @@
+A expressão !(A && ! B || C) será verdadeira quando:
+A = V (1)
+B = V (1)
+C = F (0)
+
+!(V && (!V) || F)
+!(V && F || F)
+!(F)
+V
