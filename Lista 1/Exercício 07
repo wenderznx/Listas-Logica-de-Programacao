@@ -1,0 +1,23 @@
+/*Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas,
+considerando peso 2 para a primeira e peso 3 para a segunda.*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int nota1, nota2, media;
+
+cout << "Digite sua primeira nota:";
+cin >> nota1;
+
+cout << "Digite sua segunda nota:";
+cin>> nota2;
+
+media = (nota1*2+nota2*3)/5;
+
+cout << "Sua media e:" << media;
+
+return 0;
+}
