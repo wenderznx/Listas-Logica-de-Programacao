@@ -1,0 +1,8 @@
+x = V V V V F F F F
+y = V V F F V V F F
+z = V F V F V F V F
+!z = F V F V F V F V
+
+!z || X =  V V V V F V F V
+y && (!z || x ) = V V F F F V F F
+x || y && (!z || x) = V V V V F V F V
