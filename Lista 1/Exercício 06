@@ -1,0 +1,21 @@
+=====================================================
+DISCIPLINA: Lógica de Programação
+ALUNO: Wender Felipe Silva Texeira
+ATIVIDADE: Lista 01 - Exercício 06
+DATA: 07/04/2026
+=====================================================
+
+Dadas as variáveis numéricas X, Y e Z, contendo os valores 1.5 , 5 e 13 respectivamente; as
+variáveis literais CIDADE e NOME, contendo respectivamente “ITABIRA” e “Sandro”, obter os
+resultados das expressões lógicas a seguir:
+
+a. ( V ) NOME == "MARIA" || CIDADE == “ITABIRA”
+F || V = V
+b. ( F ) CIDADE == “TRÊS CORAÇÕES” || Y >= X && NOME == “SANDRO”
+F || V && F = F
+c. ( V ) ( CIDADE == “TRÊS CORAÇÕES” || Y >= X ) && 2 * Y < Z
+(F || V) && V = V
+d. ( V ) NOME == "JORGE" || X*2 < Z + 10
+F || V = V
+e. ( ) CIDADE != !"ITABIRA" || Z%Y == 2 * X
+F || V = V
